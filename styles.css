@@ -19,13 +19,14 @@ div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
 }
-
 ul.nav-links {
     display: flex;
     margin: 0;
     padding: 0;
 }
-
+div.hamburger{
+    display: none   ;
+}
 ul li {
     margin: 0 2vw;
     list-style: none;
@@ -344,4 +345,99 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media screen and (max-width: 1024px){
+    div.hero-background-pos{
+        right: 0;
+        left: 72%;
+    }
+}
+@media screen and (max-width: 768px){
+    ul.nav-links{
+        flex-direction: column;
+        position: relative;
+    }
+    /* Hmaburger was added with font awesome in the index.html */
+    div.hamburger{
+        height: 50%;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: #fff;
+    }
+    ul.nav-links{
+        position: absolute;
+        top: 50px;
+        right: 60px;
+        /* display: none; */
+    }
+
+    ul li {
+        margin: 0;
+        padding: 5px 10px;
+        transition: 0.8s ease 0.2s;
+    }
+
+    div.hero-section{
+        padding: 8em;
+    }
+
+    div.hero-background{
+        padding: 8em;
+    }
+    div.hero-background-pos{
+        height: 120px;
+        width: 120px;
+        left: 75%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    body{
+        min-width: 137vw;
+        /* background-color: green; */
+    }
+    div.nav-bar{
+        width: 100%;
+    }
+    div.hamburger{
+        right: -100px;
+    }
+    ul.nav-links{
+        right: -80px;
+    }
+    div.background{
+        height: 280px;
+        padding: 10px 20px;
+    }
+    div.hero-background{
+        position: relative;
+    }
+    div.hero-background-pos{
+        top: 7%;
+        left: 40%;
+    }
+    div.snapshot-box-content{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    div.box1, div.box3{
+        width: 360px;
+    }
+    div.img img{
+        width: 360px;
+    }
+    input[type="text"], input[type="email"]{
+        width: 35%;
+    }
+    textarea{
+        width: 65%;
+    }
+    div.footer h6{
+        padding: 4rem;
+    }
+
 }
