@@ -364,7 +364,7 @@ div.footer h6 {
         display: block;
         position: absolute;
         top: 20px;
-        right: 30px;
+        right: 50px;
         color: #fff;
     }
     ul.nav-links{
@@ -397,8 +397,12 @@ div.footer h6 {
 
 @media screen and (max-width: 425px){
     body{
-        min-width: 100vw;
+        width: 130vw;
         /* background-color: green; */
+        /* overflow: auto; */
+    }
+    .wrapper{
+        overflow: auto;
     }
     div.nav-bar{
         width: 100%;
