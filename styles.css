@@ -397,7 +397,7 @@ div.footer h6 {
 
 @media screen and (max-width: 425px){
     body{
-        min-width: 137vw;
+        min-width: 100vw;
         /* background-color: green; */
     }
     div.nav-bar{
