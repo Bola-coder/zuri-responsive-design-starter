@@ -396,12 +396,16 @@ div.footer h6 {
 }
 
 @media screen and (max-width: 425px){
-    body{
+    /* body{
         width: 100vw;
-    }
+    } */
     div.nav-bar{
         position: relative;
         width: 100%;
+    }
+    div.logo{
+        font-size: 1.3rem;
+        margin-left: -20%;
     }
     div.hamburger{
         color: #fff;
@@ -417,13 +421,29 @@ div.footer h6 {
     div.hero-section{
         padding: 6rem;
     }
+    div.hero-content-heading h3{
+        font-size: 1.5rem;
+    }
+    div.hero-content-heading p{
+        font-size: 0.7rem;
+    }
+    div.hero-content-btn{
+        padding-top: 1.5rem;
+    }
+    div.background h4{
+        font-size: 0.9rem;
+        padding: 1.8rem;
+    }
+    div.background p {
+        font-size: 0.7rem;
+    }
     div.background{
-        height: 300px;
+        height: 280px;
         padding: 10px 20px;
         padding: 5px 20px;
     }
     div.hero-background{
-        padding: 4rem;
+        padding: 3.5rem;
         position: relative;
     }
     div.hero-background-pos{
@@ -435,10 +455,10 @@ div.footer h6 {
         flex-direction: column;
     }
     div.box1, div.box3{
-        width: 360px;
+        width: 300px;
     }
     div.img img{
-        width: 360px;
+        width: 300px;
     }
     input[type="text"], input[type="email"]{
         width: 35%;
@@ -447,13 +467,36 @@ div.footer h6 {
         width: 65%;
     }
     div.footer h6{
-        padding: 4rem;
-    }
-    .ham div{
-        color: #fff;
-        width: 50px;
-        height: 20px;
-
+        padding: 2rem;
     }
 
+}
+@media screen and (max-width: 375px){
+    div.nav-bar{
+        position: relative;
+    }
+    div.hamburger{
+        position: absolute;
+        right: 30px;
+    }
+    div.logo{
+        font-size: 1.3rem;
+        margin-left: -30%;
+    }
+    div.box1, div.box3{
+        width: 280px;
+    }
+    div.img img{
+        width: 280px;
+    }
+    input[type="text"], input[type="email"]{
+        width: 45%;
+    }
+    textarea{
+        width: 85%;
+    }
+    div.footer h6{
+        padding: 2rem;
+    }
+    
 }
