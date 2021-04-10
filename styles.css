@@ -509,6 +509,9 @@ div.footer h6 {
         position: absolute;
 
     }
+    div.logo{
+        margin-left: -45%;
+    }
     div.nav-links{
         position: absolute;
     }
