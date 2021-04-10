@@ -444,7 +444,7 @@ div.footer h6 {
     }
     div.hero-background{
         padding: 3.5rem;
-        position: relative;
+        /* position: relative; */
     }
     div.hero-background-pos{
         /* top: 7%;
@@ -499,4 +499,40 @@ div.footer h6 {
         padding: 2rem;
     }
     
+}
+
+@media screen and (max-width: 320px){
+    div.nav-bar{
+        position: relative;
+    }
+    div.hamburger{
+        position: absolute;
+
+    }
+    div.nav-links{
+        position: absolute;
+    }
+    div.hero-section{
+        padding: 6rem;
+    } 
+    div.hero-content-heading h3 {
+        font-size: 1.4rem;
+}
+    div.hero-content-heading p {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+    div.hero-content-btn {
+    padding-top: 1.5rem;
+}
+    div.background{
+        height: 280px;
+    }
+    div.snapshot-box-content{
+        width: 300px;
+    }
+    div.footer{
+        padding: 1.8rem;
+    }
+
 }
