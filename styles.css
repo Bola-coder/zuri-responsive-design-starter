@@ -397,35 +397,41 @@ div.footer h6 {
 
 @media screen and (max-width: 425px){
     body{
-        width: 130vw;
-        /* background-color: green; */
-        /* overflow: auto; */
-    }
-    .wrapper{
-        overflow: auto;
+        width: 100vw;
     }
     div.nav-bar{
+        position: relative;
         width: 100%;
     }
     div.hamburger{
-        right: -100px;
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
     }
     ul.nav-links{
-        right: -80px;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    div.hero-section{
+        padding: 6rem;
     }
     div.background{
-        height: 280px;
+        height: 300px;
         padding: 10px 20px;
+        padding: 5px 20px;
     }
     div.hero-background{
+        padding: 4rem;
         position: relative;
     }
     div.hero-background-pos{
-        top: 7%;
-        left: 40%;
+        /* top: 7%;
+        left: 40%; */
+        display: none;
     }
     div.snapshot-box-content{
-        /* flex-wrap: wrap; */
         flex-direction: column;
     }
     div.box1, div.box3{
@@ -442,6 +448,12 @@ div.footer h6 {
     }
     div.footer h6{
         padding: 4rem;
+    }
+    .ham div{
+        color: #fff;
+        width: 50px;
+        height: 20px;
+
     }
 
 }
