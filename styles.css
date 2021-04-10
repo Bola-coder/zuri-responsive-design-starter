@@ -375,12 +375,12 @@ div.footer h6 {
     }
     ul.nav-links.active{
         display: block;
-        transition: 0.8s ease 0.2s;
     }
 
     ul li {
         margin: 0;
         padding: 5px 10px;
+        transition: 0.8s ease 0.2s;
     }
 
     div.hero-section{
