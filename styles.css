@@ -464,13 +464,19 @@ div.footer h6 {
         width: 300px;
     }
     input[type="text"], input[type="email"]{
-        width: 35%;
+        width: 75%;
+        padding: 20px;
+        margin: 10px;
     }
     textarea{
         width: 65%;
     }
     div.footer h6{
         padding: 2rem;
+    }
+    div.footer-input{
+        flex-direction: column;
+        padding: 20px;
     }
 
 }
@@ -493,7 +499,7 @@ div.footer h6 {
         width: 280px;
     }
     input[type="text"], input[type="email"]{
-        width: 45%;
+        width: 75%;
     }
     textarea{
         width: 85%;
@@ -539,6 +545,9 @@ div.footer h6 {
     }
     div.footer{
         padding: 1.8rem;
+    }
+    input[type="text"], input[type="email"]{
+        width: 80%;
     }
 
 }
